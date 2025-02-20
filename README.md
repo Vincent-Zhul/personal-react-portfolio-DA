@@ -1,4 +1,4 @@
-![thumbnail](https://raw.githubusercontent.com/Vincent-Zhul/personal-react-portfolio/main/public/images/main%20page.png)
+![thumbnail](https://raw.githubusercontent.com/Vincent-Zhul/personal-react-portfolio-DA/main/public/images/mainPage.png)
 
 
 ### Features - 
