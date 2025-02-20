@@ -1,0 +1,107 @@
+/* 暗黑模式样式 */
+.modalDark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.contentDark {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contentDark h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.contentDark img {
+  width: 50%;
+  height: auto;
+  max-height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.contentDark .detailText {
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contentDark button {
+  background-color: rgb(29, 109, 212);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+/* 明亮模式样式 */
+.modalLight {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.contentLight {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contentLight h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.contentLight img {
+  width: 50%;
+  height: auto;
+  max-height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.contentLight .detailText {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contentLight button {
+  background-color:rgb(127, 127, 127, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 40px;
+}
