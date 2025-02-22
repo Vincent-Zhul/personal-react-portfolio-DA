@@ -45,7 +45,7 @@
             "universityDate":"August 2019 - June 2023",
             "universityPara":"Bachelor of Engineering in Computer Science & Technology",
             "universityURL": "https://en.uestc.edu.cn/",
-            "universityMajor": "https://en.uestc.edu.cn/info/1111/4931.htm"}],
+            "universityMajor": "https://github.com/Vincent-Zhul/personal-react-portfolio-DA/blob/main/public/PDF/CSProgramIntro.pdf"}],
     "languages":["Java","Python","C/C++","Javascript","CSS","HTML5","C#","SQL","R","Swift","GraphQL"],
     "frameworks":["React","Typescript","NodeJs","Springboot","Angular","Redux","Material-UI",".NET"],
     "others":["AWS","GCP","NoSQL","ETL","Git","NLP","HDFS","Kafka","Jenkins","CI/CD","Docker"]}}
