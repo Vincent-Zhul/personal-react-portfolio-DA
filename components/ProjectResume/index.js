@@ -1,6 +1,7 @@
 import React from "react";
+import Link from 'next/link';
 
-const ProjectResume = ({ dates, type, position, bullets }) => {
+const ProjectResume = ({ dates, type, position, url, bullets }) => {
   const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split("- "));
 
   return (
@@ -10,7 +11,13 @@ const ProjectResume = ({ dates, type, position, bullets }) => {
         <h3 className="text-sm opacity-50">{type}</h3>
       </div>
       <div className="w-3/5">
-        <h2 className="text-lg font-bold">{position}</h2>
+        {url ? (
+          <Link href={url}>
+            <a className="text-lg font-bold hover:underline">{position}</a>
+          </Link>
+        ) : (
+          <h2 className="text-lg font-bold">{position}</h2>
+        )}
         {bulletsLocal && bulletsLocal.length > 0 && (
           <ul className="list-disc">
             {bulletsLocal.map((bullet, index) => (

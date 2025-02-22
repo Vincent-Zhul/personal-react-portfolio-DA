@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Link from 'next/link';
 import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
@@ -57,21 +58,22 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Education</h1>
                 {resume.education.map((edu, index) => (
                 <div key={index} className="mt-2">
-                  <h2 className="text-lg">{edu.universityName}</h2>
+                  <Link href={edu.universityURL}><h2 className="text-lg hover:underline">{edu.universityName}</h2></Link>
                   <h3 className="text-sm opacity-75">{edu.universityDate}</h3>
-                  <p className="text-sm mt-2 opacity-50">{edu.universityPara}</p>
+                  <Link href={edu.universityMajor}><p className="text-sm mt-2 opacity-50 hover:underline">{edu.universityPara}</p></Link>
                 </div>
               ))}
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
                 {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+                  ({ id, dates, type, position, url, bullets }) => (
                     <ProjectResume
                       key={id}
                       dates={dates}
                       type={type}
                       position={position}
+                      url={url}
                       bullets={bullets}
                     ></ProjectResume>
                   )
