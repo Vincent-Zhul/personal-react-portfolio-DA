@@ -27,8 +27,8 @@
 }
 
 .contentDark img {
-  width: 50%;
-  height: auto;
+  width: flex;
+  height: flex;
   max-height: 200px;
   margin: 20px auto;
   border-radius: 10px;
@@ -81,8 +81,8 @@
 }
 
 .contentLight img {
-  width: 50%;
-  height: auto;
+  width: flex;
+  height: flex;
   max-height: 200px;
   margin: 20px auto;
   border-radius: 10px;
