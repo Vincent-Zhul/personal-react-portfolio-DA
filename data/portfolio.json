@@ -23,7 +23,7 @@
     {   "id":"5",
         "title":"JD Comment Sentiment Analysis",
         "description":"Sentiment analysis system with LSTM algorithm",
-        "imageSrc":"https://raw.githubusercontent.com/Vincent-Zhul/personal-react-portfolio-DA/main/public/images/JDComment.webp",
+        "imageSrc":"https://raw.githubusercontent.com/Vincent-Zhul/personal-react-portfolio-DA/main/public/images/JDcomment.webp",
         "details":" Developed a sentiment analysis system with LSTM algorithms in TensorFlow to analyze JD Mall customer reviews, focusing on emotional content and satisfaction levels. - Utilized Scrapy for data collection, Pandas and NumPy for cleaning, and stored data in Hadoop HDFS, performing OLAP analytics with Apache Hive. - Processed Chinese text using jieba and Python scripts for tokenization, normalization, and Word2Vec feature engineering. - Trained the LSTM model on AWS EC2, using a Python based multiprocessing batch processing system for efficiency. - Visualized model performance with Matplotlib, providing clear insights into customer sentiments."},
     {   "id":"6",
         "title":"Stock Prediction with Sentiment Analysis",
